@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 1% 5% 0% 5% ;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    gap: 40px ;
+    margin-top: 1%;
+}
+.logolist{
+    display: flex;
+    gap: 80px;
+}
+.logolist div img{
+    width: 90px;
+    height: 30px;
+    
+}
+.logolist div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vl{
+    margin-bottom: 6px;
+    border-left: 1px solid white;
+    height: 40px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("2023-06-24.png");
+    height: 515px;
+    color: white;
+}
+/* .hero-section div{
+    height: 100%;
+}  */
+.hero-section-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section-btn button{
+    background-color: rgb(182, 11, 185);
+    border: none;
+    color: white;
+    padding :15px 10px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.hero-section-btn button:hover{
+    color:rgb(182, 11, 185); 
+    background-color: white;
+    border: 2px solid rgb(182, 11, 185) ;
+}
+nav div button{
+    background-color: rgb(182, 11, 185);
+    border: none;
+    color: white;
+    padding :4px 9px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+nav div button:hover{
+    color:rgb(182, 11, 185); 
+    background-color: white;
+    border: 2px solid rgb(182, 11, 185) ;
+}
+div div h1{
+    font-size: 60px;
+}
+.heading1,.heading2,div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
